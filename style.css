@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --light-orange: #ff9100;
+    --dark-orange: #ff4500;
+    --light-gray: #f9f9f9;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", Verdana, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.6;
+    color: #333;
+}
+
+.header {
+    background: linear-gradient(270deg, var(--dark-orange) 0%, var(--light-orange) 100%);
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.grid-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: grid;
+    grid-template-columns: 1.2fr 0.8fr;
+    gap: 4rem;
+    flex: 1;
+}
+
+.book-presentation {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.book-cover {
+    text-align: center;
+}
+
+.book-cover-img {
+    max-width: 250px;
+    height: auto;
+    border-radius: 0.5rem;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    margin-bottom: 1rem;
+}
+
+.extra-info h2 {
+    font-size: 1.2rem;
+    margin: 1.5rem 0 1rem;
+    color: var(--dark-orange);
+}
+
+#html-logo {
+    color: var(--dark-orange);
+}
+
+#css-logo {
+    color: rebeccapurple;
+}
+
+#checkmark {
+    color: #00a942;
+}
+
+
+.extra-info ul {
+    list-style: none;
+}
+
+.extra-info li {
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 0.9rem;
+}
+
+.extra-info li i {
+    width: 20px;
+    text-align: center;
+    flex-shrink: 0;
+}
+
+
+.fa-circle,
+.fa-circle-check {
+    color: var(--light-orange);
+}
+
+footer {
+    background-color: var(--light-gray);
+    padding: 2rem 1rem;
+    text-align: center;
+    margin-top: 3rem;
+    border-top: 1px solid #eee;
+    font-size: 0.9rem;
+}
+
+footer a {
+    color: var(--light-orange);
+    text-decoration: none;
+    transition: all 200ms;
+}
+
+footer a:hover {
+    color: var(--dark-orange);
+    text-decoration: none;
+}
+
+.heart {
+    background: linear-gradient(to top, #ff1100 50%, #ffffff 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .header h1 {
+        font-size: 2rem;
+    }
+}

@@ -8,13 +8,6 @@ Este repositório contém o código desenvolvido durante a leitura do livro **"H
 
 O objetivo deste estudo é dominar as fundações da web moderna, semântica HTML e estilização avançada com CSS3, através da construção do projeto prático **Mirror Fashion**.
 
-## 🚀 Estrutura de Aprendizado
-
-Para acompanhar a evolução do livro, este repositório utiliza uma estratégia de branches:
-
-- **main**: Versão final e estável do projeto.
-- **exercicioX.html**: Código referente ao estado do projeto ao final de cada capítulo específico.
-
 ## 🛠️ Tecnologias Utilizadas
 
 - **HTML5** (Semântica, formulários, multimídia)
@@ -26,7 +19,7 @@ Para acompanhar a evolução do livro, este repositório utiliza uma estratégia
 - [x] Capítulo 1: O desenvolvimento web hoje
 - [x] Capítulo 2: Os primeiros passos com o nosso site
 - [x] Capítulo 3: HTML5: o que mudou?
-- [ ] Capítulo 4: O que todo desenvolvedor precisa saber sobre CSS
+- [x] Capítulo 4: O que todo desenvolvedor precisa saber sobre CSS
 - [ ] Capítulo 5: O que você consegue fazer com CSS 3
 - [ ] Capítulo 6: Tomando controle da estrutura visual
 - [ ] Capítulo 7: Melhorando os seus formulários
