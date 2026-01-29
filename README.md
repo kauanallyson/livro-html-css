@@ -37,4 +37,4 @@ Para acompanhar a evolução do livro, este repositório utiliza uma estratégia
 ---
 
 Documentação pessoal de estudos.
-Desenvolvido por Kauan
+Desenvolvido por Kauan Allyson
